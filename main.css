@@ -1,0 +1,47 @@
+body{
+    background-color: #2f07e0;
+    color: white;
+    font-family: Courier;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+h1{
+    font-size: 16pt;
+    font-weight: normal;
+}
+
+#grid{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#grid tr td{
+    border: 1px solid #ffffff;
+    background-color: #0cc6df;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+
+#grid tr td.active{
+    background-color: #349607;
+}
+
+#grid tr td.mine{
+    background-color: #f00f2d;
+}
+
+button{
+    margin: 12px 0;
+    padding: 4px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
